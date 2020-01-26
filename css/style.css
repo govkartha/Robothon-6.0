@@ -10475,7 +10475,7 @@ body {
     font-size: 16px;
     line-height: 1.8;
     font-weight: 400;
-    color: #b3b3b3;
+    color: #242424;
 }
 body.menu-show {
     overflow: hidden;
@@ -10830,8 +10830,7 @@ h5,
     -webkit-box-shadow: -16px -16px 38px -17px rgba(0, 0, 0, 0.19);
     -moz-box-shadow: -16px -16px 38px -17px rgba(0, 0, 0, 0.19);
     box-shadow: -16px -16px 38px -17px rgba(0, 0, 0, 0.19);
-    font-family: 'Black Ops One', cursive;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Audiowide', cursive;
 }
 @media (min-width: 1200px) {
     .hero #timer {
@@ -10840,16 +10839,17 @@ h5,
 }
 .hero #timer .time {
     width: 25%;
-    font-size: 30px;
+    font-size: 3.5rem;
     font-weight: 400;
     color: #fff;
     padding: 0;
     float: left;
     padding: 10px 0;
+    line-height: 1.5;
 }
 @media (min-width: 768px) {
     .hero #timer .time {
-        padding: 1.3em 0;
+/*         padding: 1.3em 0; */
     }
 }
 @media (max-width: 767.98px) {
@@ -12725,4 +12725,28 @@ textarea.form-control {
 
 .hero-main-content {
     text-align: center;
+}
+
+.about-img {
+    background-image:url(../images/r6_about_img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.about-robothon h2 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.about-robothon p {
+    text-align: justify;
+}
+
+.red-highlight {
+    color: #d71331;
+}
+
+.about-robothon .red-highlight {
+    font-weight: bolder;
 }
