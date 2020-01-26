@@ -101,6 +101,16 @@ AOS.init({
     };
     carousel();
 
+    var quoteSlider = function() {
+            $('.quotes-slider .owl-carousel').owlCarousel({
+            loop: true,
+            items: 1,
+            center: true,
+            autoplay: true
+        });
+    }
+    quoteSlider();
+
     $('nav .dropdown').hover(
         function() {
             var $this = $(this);
