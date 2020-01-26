@@ -11860,21 +11860,22 @@ h5,
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
+    border: 2px solid #d71331;
 }
-.pricing-entry:hover,
+/* .pricing-entry:hover,
 .pricing-entry:focus {
     border: 2px solid #fbb901;
+} */
+.pricing-entry .btn:hover,
+.pricing-entry .btn:focus {
+    background: white;
+    border-color: #d71332;
+    color: #d71331;
 }
-.pricing-entry:hover .btn,
-.pricing-entry:focus .btn {
-    background: #fbb901 !important;
-    border: 1px solid #fbb901 !important;
-    color: #fff !important;
-}
-.pricing-entry:hover .price,
+/* .pricing-entry:hover .price,
 .pricing-entry:focus .price {
     color: #fbb901;
-}
+} */
 
 .aside-stretch {
     background: #3666ff;
@@ -12746,6 +12747,15 @@ textarea.form-control {
     color: #d71331;
 }
 
-.about-robothon .red-highlight {
-    font-weight: bolder;
+.about-robothon h2 .red-highlight {
+    font-weight: 900;
+}
+
+.about-robothon p .red-highlight {
+    font-weight: bold;
+}
+
+#pricing-section h2 .red-highlight {
+    font-weight: 900;
+    text-transform: uppercase;
 }
