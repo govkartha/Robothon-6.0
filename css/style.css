@@ -395,7 +395,7 @@ h1,
 
 h2,
 .h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 h3,
@@ -12735,7 +12735,6 @@ textarea.form-control {
 
 .about-robothon h2 {
     text-transform: uppercase;
-    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -12758,4 +12757,22 @@ textarea.form-control {
 #pricing-section h2 .red-highlight {
     font-weight: 900;
     text-transform: uppercase;
+}
+
+.gallery.img>img {
+    width: 100%;
+    height: 100%;
+}
+
+.lab-facilities {
+    margin-top: 3rem;
+}
+
+.lab-facilities h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.lab-facilities p {
+    text-align: justify;
 }
