@@ -12883,6 +12883,10 @@ textarea.form-control {
     color:#d71331 ;
 }
 
+.owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
+    opacity: 0.6;
+}
+
 @media (max-width: 1200px) {
     .hero #timer .time {
         font-size: 2rem;
