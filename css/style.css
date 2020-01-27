@@ -13032,3 +13032,21 @@ textarea.form-control {
         top: 5%;
     }
 }
+
+
+@media (min-width: 650px){
+    #gen {
+        float: right;
+        bottom: 233px;
+    }
+
+    #copy{
+        text-align: right;
+    }
+}
+
+@media (max-width: 650px) {
+    #copy {
+        text-align: center;
+    }
+}
