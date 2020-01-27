@@ -11046,7 +11046,7 @@ h5,
         -ms-transform: translateY(-50%);
         transform: translateY(-40%);
         left: 6%;
-        max-width: 50%;
+        max-width: 60%;
         padding-left: 45px;
         padding-right: 3em;
     }
@@ -13023,6 +13023,12 @@ textarea.form-control {
     }
 }
 
+@media (max-width: 767px) {
+    .hero-main-content {
+        top: 10%
+    }
+}
+
 @media (max-width: 650px) {
     #hero-reg-btn {
         margin-top: 1em
@@ -13032,13 +13038,6 @@ textarea.form-control {
         margin-bottom: 0.7em;
     }
 }
-
-@media (max-width: 380px) {
-    .hero-main-content {
-        top: 5%;
-    }
-}
-
 
 @media (min-width: 650px){
     #gen {
@@ -13054,5 +13053,17 @@ textarea.form-control {
 @media (max-width: 650px) {
     #copy {
         text-align: center;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-main-content {
+        top: 5%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .navbar {
+        padding-left: 6.5rem;
     }
 }
