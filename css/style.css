@@ -8146,9 +8146,9 @@ button.bg-dark:focus {
 }
 
 @media (min-width: 768px) {
-    .float-md-left {
-        float: left !important;
-    }
+/*     .float-md-left {
+        /*! float: left !important; */
+    } */
     .float-md-right {
         float: right !important;
     }
@@ -12861,3 +12861,11 @@ textarea.form-control {
     display: flex;
     align-items: center;
    }
+
+#contact h1, h3, h5{
+    color: #d71331;
+}
+
+#copy a{
+    color:#d71331 ;
+}
