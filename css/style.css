@@ -12885,7 +12885,7 @@ textarea.form-control {
     align-items: center;
    }
 
-#contact h1, h3, h5{
+#contact h1, #contact h3, #contact h5{
     color: white;;
 }
 
