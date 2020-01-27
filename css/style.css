@@ -12889,15 +12889,37 @@ textarea.form-control {
     }
     
     .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
-        left: 50vw;
+        left: 47vw;
         transform: translate(-50%, -40%);
     }
 }
 
 @media (max-width: 992px) {
     .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
-        width: 70%;
-        transform: translate(0, 0);
-        top: 0;
+        width: 60%;
+        transform: translate(-50%, 0%);
+    }
+}
+
+@media (max-width: 550px) {
+    .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
+        width: 90%;
+        left: 50%;
+    }
+}
+
+@media (max-width: 650px) {
+    #hero-reg-btn {
+        margin-top: 1em
+    }
+    
+    .hero-main-content .logo {
+        margin-bottom: 0.7em;
+    }
+}
+
+@media (max-width: 380px) {
+    .hero-main-content {
+        top: 5%;
     }
 }
