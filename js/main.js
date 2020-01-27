@@ -25,7 +25,9 @@ AOS.init({
 
     // Loader
     $(window).load(function() {
-         $('#ftco-loader').removeClass('show');
+        if($('#ftco-loader').length > 0) {
+            $('#ftco-loader').removeClass('show');
+        }
     });
 
     // Scrollax
@@ -107,6 +109,18 @@ AOS.init({
         });
     }
     quoteSlider();
+
+    var imageSlider = function() {
+        $('.image-slider .owl-carousel').owlCarousel({
+            loop: true,
+            items: 1,
+            center: true,
+            autoplay: true,
+            touchDrag: false,
+            mouseDrag: false
+        });
+    }
+    imageSlider();
 
     $('nav .dropdown').hover(
         function() {
@@ -312,16 +326,3 @@ AOS.init({
         makeTimer();
     }, 1000);
 })(jQuery);
-
-
-var imageSlider = function() {
-    $('.image-slider .owl-carousel').owlCarousel({
-    loop: true,
-    items: 1,
-    center: true,
-    autoplay: true,
-    touchDrag: false,
-    mouseDrag: false
-});
-}
-imageSlider();
