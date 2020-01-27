@@ -12704,6 +12704,11 @@ textarea.form-control {
     background-color: #242424;
 }
 
+#timer .time:nth-child(4), #timer .time:nth-child(4) span {
+    background: white;
+    color: black;
+}
+
 .hero #hero-reg-btn {
   text-align: center;
 }
@@ -12884,7 +12889,7 @@ textarea.form-control {
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
-    opacity: 0.6;
+    opacity: 0.7;
 }
 
 @media (max-width: 1200px) {
