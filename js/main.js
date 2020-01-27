@@ -315,3 +315,14 @@ AOS.init({
         makeTimer();
     }, 1000);
 })(jQuery);
+
+
+var imageSlider = function() {
+    $('.image-slider .owl-carousel').owlCarousel({
+    loop: true,
+    items: 1,
+    center: true,
+    autoplay: true
+});
+}
+imageSlider();

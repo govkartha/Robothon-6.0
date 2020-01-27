@@ -12839,3 +12839,25 @@ textarea.form-control {
 .quotes-slider .owl-item {
     text-align: center;
 }
+
+.image-slider {
+    margin: 3px;
+}
+
+.image-slider .owl-carousel  #item  {
+    display: block;
+    width: 95%;
+    height: auto;
+    position: relative;
+    align-items: center;
+    padding: 2rem 2rem 2rem 2rem;
+    overflow: hidden
+}
+.image-slider .owl-item{
+    text-align: center;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
+   }
