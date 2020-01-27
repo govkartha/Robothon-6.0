@@ -425,6 +425,7 @@ h6,
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
+    color: white;
 }
 
 .display-1 {
@@ -11977,7 +11978,7 @@ textarea.form-control {
 .ftco-footer {
     font-size: 16px;
     background: #232931;
-    padding: 7em 0;
+    padding: 3em 0;
     z-index: 0;
 }
 .ftco-footer .ftco-footer-logo {
@@ -12885,11 +12886,47 @@ textarea.form-control {
    }
 
 #contact h1, h3, h5{
+    color: white;;
+}
+
+#contact .hearts-love {
     color: #d71331;
+    font-size: 3rem;
+}
+
+.lead {
+    margin-top: 1em;
+}
+
+.lead p {
+    color: white;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.lead-name {
+    font-weight: 900;
+}
+
+.lead-type {
+    color: #d71331;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.ftco-footer-social {
+    margin-top: 3em;
+}
+
+#copy {
+    text-align: center;
+    color:  whitesmoke;
 }
 
 #copy a{
-    color:#d71331 ;
+    color:#d71331;
+    cursor: pointer;
+    font-size: 1.5rem;
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
@@ -12906,7 +12943,7 @@ textarea.form-control {
     border-radius: 5px;
     padding: 1em;
     margin-top: 1em;
-    
+
 }
 
 #prize-section {
@@ -12982,11 +13019,12 @@ textarea.form-control {
     font-size: 1.3rem;
 }
 
+
 @media (max-width: 1200px) {
     .hero #timer .time {
         font-size: 2rem;
     }
-    
+
     .owl-carousel.home-slider .slider-item .slider-text .one-forth .text {
         left: 47vw;
         transform: translate(-50%, -40%);
@@ -12998,19 +13036,19 @@ textarea.form-control {
         width: 60%;
         transform: translate(-50%, 0%);
     }
-    
+
     #prize-section {
         padding-bottom: 1rem;
     }
-    
+
     .first-prize {
         transform: translate(0);
     }
-    
+
     .prize {
         margin-bottom: 5em;
     }
-    
+
     .intern-op {
         margin-top: 0;
     }
@@ -13033,27 +13071,17 @@ textarea.form-control {
     #hero-reg-btn {
         margin-top: 1em
     }
-    
+
     .hero-main-content .logo {
         margin-bottom: 0.7em;
     }
 }
 
 @media (min-width: 650px){
-    #gen {
-        float: right;
-        bottom: 233px;
-    }
 
-    #copy{
-        text-align: right;
-    }
 }
 
 @media (max-width: 650px) {
-    #copy {
-        text-align: center;
-    }
 }
 
 @media (max-width: 380px) {
