@@ -10813,7 +10813,7 @@ h5,
     letter-spacing: 10px;
     font-size: 12px;
     z-index: 1;
-    color: rgba(0, 0, 0, 0.3);
+    color: #d71331;
 }
 .hero h3.vr span {
     color: #000000;
@@ -12696,11 +12696,11 @@ textarea.form-control {
     color: white;
 }
 
-#timer .time:nth-child(odd){
+#timer .time:nth-child(1), #timer .time:nth-child(2){
     background-color: #d71331;
 }
 
-#timer .time:nth-child(even){
+#timer .time:nth-child(3){
     background-color: #242424;
 }
 
