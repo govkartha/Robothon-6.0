@@ -2724,13 +2724,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    background-color: #d71331;
+    border-color: #d71331;
+    box-shadow: -1px 20px 40px -18px rgba(0, 0, 0, 0.37);
 }
 .btn-primary:hover {
-    color: #fff;
-    background-color: #0069d9;
-    border-color: #0062cc;
+    color: #d71331;
+    background-color: #fff;
+    border-color: #d71331;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -11318,9 +11319,12 @@ h5,
     outline: none;
 }
 .btn.btn-primary {
-    background: #d71331;
-    border: 1px solid #d71331;
+    position: relative;
     color: #fff;
+    background-color: #d71331;
+    border-color: #d71331;
+    box-shadow: -1px 20px 40px -18px rgba(0, 0, 0, 0.37);
+    font-weight: 600;
 }
 .btn.btn-primary:hover {
     border: 1px solid #d71331;
@@ -12927,7 +12931,7 @@ textarea.form-control {
 #copy a{
     color:#d71331;
     cursor: pointer;
-    
+
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
@@ -13020,6 +13024,18 @@ textarea.form-control {
     font-size: 1.3rem;
 }
 
+#partners {
+    text-align: center;
+    background: #f8f9fa;
+}
+
+#partners p {
+    text-align: center;
+}
+
+#partners .btn-primary {
+    font-size: 1.5rem;
+}
 
 @media (max-width: 1200px) {
     .hero #timer .time {
