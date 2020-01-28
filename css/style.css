@@ -12891,8 +12891,9 @@ textarea.form-control {
 
 #contact .hearts-love {
     color: #d71331;
-    font-size: 3rem;
+    font-size: 1.75rem;
 }
+
 
 .lead {
     margin-top: 1em;
@@ -12926,7 +12927,7 @@ textarea.form-control {
 #copy a{
     color:#d71331;
     cursor: pointer;
-    font-size: 1.5rem;
+    
 }
 
 .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay {
