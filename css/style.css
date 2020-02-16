@@ -13037,6 +13037,38 @@ textarea.form-control {
     font-size: 1.5rem;
 }
 
+.partner {
+    position: relative;
+	box-shadow: 1px 1px 33px 0px rgba(0, 0, 0, 0.22);
+    padding: 1em 1em 1em 1em;
+    border-radius: 6px;
+    margin-bottom: 2em;
+}
+
+.partner-title {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.partner-title>h3 {
+    display: inline-block;
+    text-align: center;
+}
+
+.underline {
+    height: 2px;
+    width: 60%;
+    background: #d71331;
+    margin: 0 auto;
+}
+
+.partner-img img{
+    width: 100%;
+}
+
 @media (max-width: 1200px) {
     .hero #timer .time {
         font-size: 2rem;
